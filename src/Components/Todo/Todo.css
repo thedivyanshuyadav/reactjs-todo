@@ -1,0 +1,111 @@
+body{
+  background-color: #61dafb;
+}
+.addtodo__container{
+    background-color: rgb(28, 47, 71);
+    padding: 10px;
+    width: fit-content;
+    margin: auto;
+    box-shadow: 0px 0px 10px 2px skyblue;
+    border-radius: 8px;
+    margin: 50px auto 20px auto;
+}
+.addtodo__form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.addtodo__form_data{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.addtodo__form__title{
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+    margin: 8px 0px;
+    font-size: 16px;
+}
+.addtodo__form__desc{
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+    margin: 8px 0px;
+    font-size: 16px;
+    min-height:50px;
+    text-overflow: clip;
+}
+.addtodo__form__submitbtn{
+    background-color: rgb(152, 204, 219);
+    padding: 8px 20px;
+    margin: 8px 0px 8px 8px;
+    border-radius: 8px;
+    font-size: 16px;
+    border: none;
+    width: fit-content;
+    cursor: pointer;
+    
+}
+
+
+.todo__container{
+    background: linear-gradient(to right,rgb(92, 203, 247),rgb(31, 194, 223));
+    box-shadow: 0 0 4px 0;
+    color: white;
+    width: 60%;
+    min-width: 300px;
+    max-width: 700px;
+    padding:16px;
+    margin: 8px auto;
+    border-radius: 8px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.todo__status{
+    background-color: rgba(0, 0, 0, 0.308);
+    box-shadow: 0 0 6px 0px;
+    width: 20%;
+    min-width: 80px;
+    min-height: 80px;
+}
+.todo__data{
+    margin-right: auto;
+    padding: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.todo__title{
+    font-size: 22px;
+    font-weight: 600;
+}
+.todo__right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.todo__date{
+    margin: auto;
+    padding: 10px;
+}
+.todo__container > div > div > button{
+    border: none;
+    border-radius: 8px;
+    padding: 8px 12px;
+    margin: 4px;
+    color: white;
+    cursor: pointer;
+}
+.todo__edit{
+    background-color: rgb(15, 83, 173);
+}
+.todo__delete{
+    background-color: rgb(158, 30, 30);
+}
